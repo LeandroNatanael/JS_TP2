@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS TP2</title>
+</head>
+
+<body>
+
+    <h1>Ejercicio 1</h1>
+
+    <div class="Ejercicio1">
+        <div type="button" id="white" class="boxWhite cuadrados" onclick="cambioColor('white')"></div>
+        <div type="button" id="aqua" class="boxAqua cuadrados" onclick="cambioColor('aqua')"></div>
+        <div type="button" id="gray" class="boxGray cuadrados" onclick="cambioColor('gray')"></div>
+    </div>
+
+    <h1>Ejercicio 2</h1>
+    <div class="Ejercicio2">
+        <textarea name="textos" id="texTarea" cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="contadorCaracteres()">Calcular</button>
+        <h3>Caracteres computados: </h3>
+        <h3 id="contador"></h3>
+    </div>
+
+    <h1>Ejercicio 3</h1>
+    <div class="Ejercicio3">
+        <div class="lista">
+            <h3>Lista Alumnos: </h3>
+            <h5 id="salida"></h5>
+        </div>
+        <div class="listaApr">
+            <h3>Alumnos Aprobados:</h3>
+            <h5 id="aprobados"></h5>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

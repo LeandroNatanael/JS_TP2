@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.Ejercicio1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cuadrados {
+    border: 2px solid black;
+    border-style: line;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.boxWhite {
+    background-color: white;
+}
+
+.boxAqua {
+    background-color: aqua;
+}
+
+.boxGray {
+    background-color: gray;
+}
+
+.Ejercicio2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.boxContador {
+    border: solid 2px black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.Ejercicio3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    border: 1px solid;
+    margin-right: 5px;
+}
+.listaApr {
+    border: 1px solid;
+    margin-right: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
